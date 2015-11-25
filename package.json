@@ -1,0 +1,29 @@
+{
+  "name": "array-clone",
+  "version": "0.0.1",
+  "description": "Fast Array Clone.",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test.js",
+    "test-ci": "isparta cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec --check-leaks test.js",
+    "test-cov": "isparta cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test.js"
+  },
+  "repository": "github:fundon/array-clone",
+  "keywords": [
+    "array",
+    "clone",
+    "slice",
+    "array-clone"
+  ],
+  "devDependencies": {
+    "isparta": "^4.x",
+    "mocha": "^2.x"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
