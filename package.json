@@ -1,6 +1,6 @@
 {
   "name": "array-clone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fast Array Clone.",
   "author": "Fangdun Cai <cfddream@gmail.com>",
   "license": "MIT",
